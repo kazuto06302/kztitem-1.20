@@ -1,0 +1,21 @@
+name: kzt-recipe2
+version: '1.0'
+main: com.example.kztRecipe2.CustomItems
+api-version: '1.20'
+commands:
+  kztitem:
+    description: カスタムアイテム管理コマンド
+    usage: /kztitem [reload|give <player> <itemId>]
+    permission: kztitem.gui
+    permission-message: §cこのコマンドを実行する権限がありません。
+
+permissions:
+  kztitem.gui:
+    description: GUIを開く権限
+    default: true
+  kztitem.reload:
+    description: アイテムを再読み込みする権限
+    default: op
+  kztitem.give:
+    description: アイテムを配布する権限
+    default: op

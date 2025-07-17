@@ -1,0 +1,25 @@
+name: "§bAndùril"
+material: IRON_SWORD
+model: 1
+lore:
+  - ""
+  - "§6Andùril"
+  - "§aHold in main hand"
+  - "§bSpeed I"
+  - "§bResistance I"
+enchantments:
+  sharpness: 2
+attributes:
+  GENERIC_ATTACK_DAMAGE: 12.0
+recipe:
+  shape:
+    - "FIF"
+    - "FIF"
+    - "FBF"
+  ingredients:
+    I: IRON_BLOCK
+    F: FEATHER
+    B: BLAZE_ROD
+effects:
+  speed: 1
+  resistance: 2
