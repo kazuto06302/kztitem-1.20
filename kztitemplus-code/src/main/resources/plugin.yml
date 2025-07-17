@@ -1,0 +1,4 @@
+name: kztitemplus
+version: '1.0'
+main: com.example.kztitemplus.Kztitemplus
+api-version: '1.20'
