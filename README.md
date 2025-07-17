@@ -21,3 +21,4 @@ kztitemplusという追加のプラグインをプラグインフォルダに導
 kztitempackというテクスチャを使用してください<br>
 Optifine または　CIT Resewn（MOD）が必要です<br>
 1.8-1.21までのバージョンが対応しています
+（asksさん・hoplite公式・Hypixel公式テクスチャを使用しています）
