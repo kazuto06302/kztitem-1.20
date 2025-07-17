@@ -1,0 +1,26 @@
+name: "§9Quick Pick"
+material: IRON_PICKAXE
+model: 1
+lore:
+  - ""
+  - "§9Quick Pick"
+  - "§dextra-cost:none"
+
+enchantments:
+  efficiency: 1
+attributes:
+recipe:
+  shape:
+    - "III"
+    - "CSC"
+    - " S "
+  ingredients:
+    I: RAW_IRON
+    C: COAL
+    S: STICK
+effects:
+allow-anvil: true
+allow-enchant: false
+allow-smithing: false
+allow-grindstone: true
+

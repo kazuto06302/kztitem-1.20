@@ -1,0 +1,35 @@
+name: "§6Modular Bow"
+material: BOW
+model: 2
+lore:
+  - "§6mode1"
+  - "§6Modular Bow"
+  - ""
+  - "§a<MODE>"
+  - "§a1 Punch I"
+  - "§a2 Poison"
+  - "§a3 Lightning Bolt"
+  - ""
+  - "§eLEFT CLICK to cycle!"
+  - ""
+  - "§dextra-cost:5head"
+attributes:
+recipe:
+  shape:
+    - " C "
+    - "PBP"
+    - "ESE"
+  ingredients:
+    C: CLOCK
+    P: BLAZE_POWDER
+    B: BOW
+    E: SPIDER_EYE
+    S: SLIME_BALL
+effects:
+allow-anvil: false
+allow-enchant: false
+allow-smithing: false
+allow-grindstone: false
+extra-cost:
+  PLAYER_HEAD: 5
+

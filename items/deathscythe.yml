@@ -1,0 +1,30 @@
+name: "§6Death's Scythe"
+material: IRON_HOE
+model: 1
+lore:
+  - ""
+  - "§6Death's Scythe"
+  - "§9Oblivion"
+  - ""
+  - "§7Deals 20% of your opponent'sb health as damage,"
+  - "§7and lifesteals 25% of the damage dealt!"
+  - ""
+  - "§dextra-cost:5head"
+attributes:
+recipe:
+  shape:
+    - " PP"
+    - " BC"
+    - "B  "
+  ingredients:
+    C: CLOCK
+    P: PLAYER_HEAD
+    B: BONE
+effects:
+allow-anvil: false
+allow-enchant: false
+allow-smithing: false
+allow-grindstone: false
+extra-cost:
+  PLAYER_HEAD: 5
+

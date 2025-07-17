@@ -1,0 +1,37 @@
+name: "§6Hermes'Boots"
+material: DIAMOND_BOOTS
+model: 1
+lore:
+  - ""
+  - "§6Hermes'Boots"
+  - ""
+  - "§7Provides the wearer with 10%"
+  - "§7increase walk speed!"
+  - ""
+  - "§dextra-cost:5head"
+enchantments:
+  protection: 2
+  feather_falling: 1
+  unbreaking: 2
+attributes:
+  GENERIC_MOVEMENT_SPEED: 0.01
+recipe:
+  shape:
+    - "DHD"
+    - "RBR"
+    - "F F"
+  ingredients:
+    D: DIAMOND
+    F: FEATHER
+    R: BLAZE_POWDER
+    H: PLAYER_HEAD
+    B: DIAMOND_BOOTS
+effects:
+allow-anvil: false
+allow-enchant: false
+allow-smithing: false
+allow-grindstone: false
+extra-cost:
+  PLAYER_HEAD: 5
+
+

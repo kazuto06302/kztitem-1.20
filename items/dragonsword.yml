@@ -1,0 +1,29 @@
+name: "§bDragon Sword"
+material: DIAMOND_SWORD
+model: 1
+lore:
+  - ""
+  - "§bDragon Sword"
+  - "§7Attack power is 1 higher than normal"
+  - ""
+  - "§dextra-cost:3head"
+enchantments:
+attributes:
+  GENERIC_ATTACK_DAMAGE: 8.0
+recipe:
+  shape:
+    - " B "
+    - " D "
+    - "OBO"
+  ingredients:
+    D: DIAMOND_SWORD
+    O: OBSIDIAN
+    B: BLAZE_POWDER
+effects:
+allow-anvil: true
+allow-enchant: false
+allow-smithing: false
+allow-grindstone: true
+extra-cost:
+  PLAYER_HEAD: 3
+

@@ -1,0 +1,33 @@
+name: "§6Excalibur"
+material: DIAMOND_SWORD
+model: 2
+lore:
+  - ""
+  - "§6Excalibur"
+  - "§9Chaos"
+  - ""
+  - "§6The Holy Sword"
+  - "§7Smites on hit, dealing 2 hearts"
+  - "§7of damage!(5second cooldown)"
+  - ""
+  - "§dextra-cost:5head"
+attributes:
+recipe:
+  shape:
+    - "SFS"
+    - "STS"
+    - "SDS"
+  ingredients:
+    F: FIRE_CHARGE
+    T: TNT
+    D: DIAMOND_SWORD
+    S: SOUL_SAND
+effects:
+  unbreaking: 1
+allow-anvil: false
+allow-enchant: false
+allow-smithing: false
+allow-grindstone: false
+extra-cost:
+  PLAYER_HEAD: 5
+

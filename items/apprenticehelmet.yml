@@ -1,0 +1,27 @@
+name: "§9Apprentice Helmet"
+material: IRON_HELMET
+model: 1
+lore:
+  - ""
+  - "§9Apprentice Helmet"
+  - "§dextra-cost:none"
+enchantments:
+  protection: 1
+  fire_protection: 1
+  blast_protection: 1
+  projectile_protection: 1
+attributes:
+recipe:
+  shape:
+    - "III"
+    - "IRI"
+    - "   "
+  ingredients:
+    I: IRON_INGOT
+    R: REDSTONE_TORCH
+effects:
+allow-anvil: false
+allow-enchant: false
+allow-smithing: false
+allow-grindstone: false
+

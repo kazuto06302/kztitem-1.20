@@ -1,0 +1,34 @@
+name: "§6Andùril"
+material: IRON_SWORD
+model: 2
+lore:
+  - ""
+  - "§6Anduril"
+  - "§9Justice"
+  - ""
+  - "§9Resistanve I (While Hoolding)"
+  - "§9Speed I (While Holding)"
+  - ""
+  - "§dextra-cost:5head"
+enchantments:
+  sharpness: 2
+attributes:
+recipe:
+  shape:
+    - "FIF"
+    - "FIF"
+    - "FBF"
+  ingredients:
+    I: IRON_BLOCK
+    F: FEATHER
+    B: BLAZE_ROD
+effects:
+  speed: 1
+  resistance: 1
+allow-anvil: false
+allow-enchant: false
+allow-smithing: false
+allow-grindstone: false
+extra-cost:
+  PLAYER_HEAD: 5
+

@@ -1,0 +1,29 @@
+name: "§bTarnhelm"
+material: DIAMOND_HELMET
+model: 1
+lore:
+  - ""
+  - "§bTarnhelm"
+  - "§dextra-cost:3head"
+enchantments:
+  protection: 1
+  fire_protection: 1
+  respiration: 3
+attributes:
+recipe:
+  shape:
+    - "DID"
+    - "DRD"
+    - "   "
+  ingredients:
+    D: DIAMOND
+    I: IRON_INGOT
+    R: REDSTONE_BLOCK
+effects:
+allow-anvil: false
+allow-enchant: false
+allow-smithing: false
+allow-grindstone: false
+extra-cost:
+  PLAYER_HEAD: 3
+

@@ -1,0 +1,30 @@
+name: "§eGolden Head"
+material: PLAYER_HEAD
+model: 1
+skull-url: "https://textures.minecraft.net/texture/cfd27d8b218b5aa972fda9054926d7b1b2c0329a456332148fcc3d6c6d34cf0f"
+lore:
+  - ""
+  - "§eGolden Head"
+  - ""
+  - "§7Absorption I (2:00)"
+  - "§7Regeneration IV (0:05)"
+  - "§7Speed II (0:21)"
+  - ""
+  - "§dextra-cost:none"
+
+enchantments:
+attributes:
+recipe:
+  shape:
+    - "GGG"
+    - "GHG"
+    - "GGG"
+  ingredients:
+    G: GOLD_INGOT
+    H: PLAYER_HEAD
+effects:
+allow-anvil: false
+allow-enchant: false
+allow-smithing: false
+allow-grindstone: false
+

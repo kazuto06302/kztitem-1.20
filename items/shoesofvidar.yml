@@ -1,0 +1,31 @@
+name: "§6Shoes of Vidar"
+material: DIAMOND_BOOTS
+model: 2
+lore:
+  - ""
+  - "§6Shoes of Vidar"
+  - "§dextra-cost:5head"
+enchantments:
+  depth_strider: 2
+  unbreaking: 3
+  projectile_protection: 2
+  thorns: 1
+attributes:
+recipe:
+  shape:
+    - " P "
+    - "WBW"
+    - " F "
+  ingredients:
+    P: PUFFERFISH
+    W: POTION
+    B: DIAMOND_BOOTS
+    F: FISHING_ROD
+effects:
+allow-anvil: false
+allow-enchant: false
+allow-smithing: false
+allow-grindstone: false
+extra-cost:
+  SKULL_ITEM: 5
+

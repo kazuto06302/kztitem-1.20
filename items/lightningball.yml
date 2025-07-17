@@ -1,0 +1,33 @@
+name: "§6Lightning Ball"
+material: SNOWBALL
+model: 1
+lore:
+  - ""
+  - "§6lightningball"
+  - "§9Thunder"
+  - ""
+  - "§7When thrown, it brings down lightning"
+  - ""
+  - "§dextra-cost:5head"
+enchantments:
+  unbreaking: 1
+attributes:
+recipe:
+  shape:
+    - "DPD"
+    - "PSP"
+    - "BTB"
+  ingredients:
+    D: DIAMOND
+    P: PLAYER_HEAD
+    B: BLAZE_POWDER
+    S: SNOWBALL
+    T: TNT
+effects:
+allow-anvil: false
+allow-enchant: false
+allow-smithing: false
+allow-grindstone: false
+extra-cost:
+  PLAYER_HEAD: 5
+

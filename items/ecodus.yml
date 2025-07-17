@@ -1,0 +1,34 @@
+name: "§6Exodus"
+material: DIAMOND_HELMET
+model: 2
+lore:
+  - ""
+  - "§6Exodus"
+  - "§9Aeon"
+  - ""
+  - "§7Regenerates a small portion of"
+  - "§7health when you hit an enemy!"
+  - "§7(2 second cooldown)"
+  - ""
+  - "§dextra-cost:5head"
+enchantments:
+  unbreaking: 3
+attributes:
+recipe:
+  shape:
+    - "DDD"
+    - "DPD"
+    - "EGE"
+  ingredients:
+    D: DIAMOND
+    P: PLAYER_HEAD
+    E: EMERALD
+    G: GOLDEN_CARROT
+effects:
+allow-anvil: false
+allow-enchant: false
+allow-smithing: false
+allow-grindstone: false
+extra-cost:
+  PLAYER_HEAD: 5
+

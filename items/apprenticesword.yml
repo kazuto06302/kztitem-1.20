@@ -1,0 +1,27 @@
+name: "§9Apprentice Sword"
+material: IRON_SWORD
+model: 1
+lore:
+  - ""
+  - "§9Apprentice Sword"
+  - "§7Cannot be used in an Anvil or Enchanting Table"
+  - ""
+  - "§dextra-cost:none"
+
+enchantments:
+  sharpness: 2
+attributes:
+recipe:
+  shape:
+    - " R "
+    - " I "
+    - " R "
+  ingredients:
+    R: REDSTONE_BLOCK
+    I: IRON_SWORD
+effects:
+allow-anvil: true
+allow-enchant: false
+allow-smithing: false
+allow-grindstone: true
+

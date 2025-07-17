@@ -1,0 +1,31 @@
+name: "§6Axe of Perun"
+material: DIAMOND_AXE
+model: 1
+lore:
+  - ""
+  - "§6Axe of Perun"
+  - "§9Thunder"
+  - ""
+  - "§7Strikes Lightning, dealing 1.5 hearts! (8 second cooldown)"
+  - ""
+  - "§dextra-cost:5head"
+
+attributes:
+recipe:
+  shape:
+    - "DTF"
+    - "DS "
+    - " S "
+  ingredients:
+    F: FIRE_CHARGE
+    T: TNT
+    D: DIAMOND
+    S: STICK
+effects:
+allow-anvil: false
+allow-enchant: false
+allow-smithing: false
+allow-grindstone: false
+extra-cost:
+  PLAYER_HEAD: 5
+

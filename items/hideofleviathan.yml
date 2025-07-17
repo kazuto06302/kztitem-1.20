@@ -1,0 +1,31 @@
+name: "§6Hide of Leviathan"
+material: DIAMOND_LEGGINGS
+model: 1
+lore:
+  - ""
+  - "§6Hide of Leviathan"
+  - "§9Maelstrom"
+  - ""
+  - "§dextra-cost:5head"
+enchantments:
+  respiration: 3
+  protection: 4
+attributes:
+recipe:
+  shape:
+    - "RBR"
+    - "DLD"
+    - "W W"
+  ingredients:
+    D: DIAMOND
+    L: DIAMOND_LEGGINGS
+    R: LAPIS_BLOCK
+    W: LILY_PAD
+    B: WATER_BUCKET
+effects:
+allow-anvil: false
+allow-enchant: false
+allow-smithing: false
+allow-grindstone: false
+extra-cost:
+  PLAYER_HEAD: 5

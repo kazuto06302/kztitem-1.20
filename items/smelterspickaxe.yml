@@ -1,0 +1,31 @@
+name: "§9Smelter's Pickaxe"
+material: IRON_PICKAXE
+model: 1
+lore:
+  - ""
+  - "§9Smelter's Pickaxe"
+  - ""
+  - "§7An essential pickaxe that smelts ores automatically"
+  - "§7Digging it 50 times will break it"
+  - ""
+  - "§dextra-cost:none"
+
+enchantments:
+  efficiency: 2
+attributes:
+recipe:
+  shape:
+    - "IFI"
+    - "CSC"
+    - " S "
+  ingredients:
+    I: RAW_IRON
+    C: COAL_BLOCK
+    F: FURNACE
+    S: STICK
+effects:
+allow-anvil: true
+allow-enchant: false
+allow-smithing: false
+allow-grindstone: true
+

@@ -1,0 +1,26 @@
+name: "Player's Head"
+material: PLAYER_HEAD
+lore:
+  - ""
+  - "§ePlayer's Head"
+  - ""
+  - "§7Regeneration III(0:05)"
+  - "§7SPEED II(0:21)"
+  - ""
+  - "§dextra-cost:none"
+
+enchantments:
+attributes:
+recipe:
+  shape:
+    - "   "
+    - " H "
+    - "   "
+  ingredients:
+    H: PLAYER_HEAD
+effects:
+allow-anvil: false
+allow-enchant: false
+allow-smithing: false
+allow-grindstone: false
+

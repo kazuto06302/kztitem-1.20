@@ -1,0 +1,31 @@
+name: "§bDragon Armor"
+material: DIAMOND_CHESTPLATE
+model: 1
+lore:
+  - ""
+  - "§bDragon Armor"
+  - "§7Defense power is 1 higher than normal"
+  - ""
+  - "§dextra-cost:3head"
+enchantments:
+  protection: 4
+attributes:
+recipe:
+  shape:
+    - " M "
+    - " D "
+    - "OAO"
+  ingredients:
+    M: MAGMA_CREAM
+    D: DIAMOND_CHESTPLATE
+    O: OBSIDIAN
+    A: ANVIL
+effects:
+allow-anvil: false
+allow-enchant: false
+allow-smithing: false
+allow-grindstone: false
+extra-cost:
+  PLAYER_HEAD: 3
+
+

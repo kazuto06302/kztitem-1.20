@@ -1,0 +1,28 @@
+name: "§9Vorpal Sword"
+material: IRON_SWORD
+model: 3
+lore:
+  - ""
+  - "§9Vorpal Sword"
+  - "§dextra-cost:none"
+
+enchantments:
+  bane_of_arthropods: 2
+  looting: 1
+  smite: 2
+attributes:
+recipe:
+  shape:
+    - " B "
+    - " I "
+    - " Z "
+  ingredients:
+    B: BONE
+    I: IRON_SWORD
+    Z: ROTTEN_FLESH
+effects:
+allow-anvil: false
+allow-enchant: false
+allow-smithing: false
+allow-grindstone: false
+
