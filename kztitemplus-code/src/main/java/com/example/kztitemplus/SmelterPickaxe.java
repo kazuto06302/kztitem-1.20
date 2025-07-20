@@ -56,9 +56,6 @@ public class SmelterPickaxe implements Listener {
         // サウンド（任意）：精錬音を再生
         block.getWorld().playSound(block.getLocation(), Sound.BLOCK_BLASTFURNACE_FIRE_CRACKLE, 1.0f, 1.0f);
 
-        // ▼▼ 耐久値を5削る ▼▼
-        short currentDurability = tool.getDurability();
-        short newDurability = (short) (currentDurability + 4);
-        tool.setDurability(newDurability);
+
     }
 }
