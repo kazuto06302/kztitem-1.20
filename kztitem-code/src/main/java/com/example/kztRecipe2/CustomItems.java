@@ -11,7 +11,7 @@ public class CustomItems extends JavaPlugin {
     public void onEnable() {
         instance = this;
         saveDefaultConfig();
-        saveResource("items/anduril.yml", false);
+        //saveResource("items/anduril.yml", false);
         ItemManager.loadItems();
         getServer().getPluginManager().registerEvents(new ItemListener(), this);
         getServer().getPluginManager().registerEvents(new ItemGUI(), this);
